@@ -1,4 +1,4 @@
-import ICGoogle from'./images/icongoogle.png'
+import ICGoogle from'./images/google.png'
 import ICFacebook from'./images/Frame.png'
 
 export{
