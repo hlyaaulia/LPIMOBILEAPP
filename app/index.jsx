@@ -13,7 +13,7 @@ function App() {
     <NavigationContainer independent={true}>
       <Stack.Navigator initialRouteName="Login">
         <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Login" component={LoginScreen} />
+        <Stack.Screen name="Login" component={LoginScreen} options={{headerShown:false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

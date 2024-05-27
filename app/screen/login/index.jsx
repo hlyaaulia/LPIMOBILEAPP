@@ -49,7 +49,7 @@ export default function LoginScreen({navigation}){
           <ImageBackground 
             source={ require('../../../assets/images/Subtract.png') } 
             resizeMode="cover"
-            style={{width:windowWidth, height:400}}>
+            style={{width:windowWidth, height:300}}>
               <View style={style.brandStyle}>
                 <Image 
                   source={ require('../../../assets/images/Brand.png') } 
